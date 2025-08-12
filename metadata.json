@@ -1,0 +1,6 @@
+{
+  "name": "In Rotation",
+  "description": "A feature-complete, modern video platform built with React, Vite, and Tailwind CSS. It is integrated with a live Supabase backend for data persistence and user authentication, and features an AI-powered video summarization tool using the Gemini API.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
