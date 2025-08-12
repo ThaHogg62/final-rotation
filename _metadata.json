@@ -1,0 +1,37 @@
+{
+  "hash": "154fc7f3",
+  "configHash": "b78d4ad6",
+  "lockfileHash": "c1e18c78",
+  "browserHash": "34b229d1",
+  "optimized": {
+    "react": {
+      "src": "../../react/index.js",
+      "file": "react.js",
+      "fileHash": "fd016016",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "b944a64e",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "4ad7b2ba",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "b73f7bc9",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-VHW23IB5": {
+      "file": "chunk-VHW23IB5.js"
+    }
+  }
+}
