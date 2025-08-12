@@ -1,13 +1,51 @@
-import GoTrueAdminApi from './GoTrueAdminApi'
-import GoTrueClient from './GoTrueClient'
-import AuthAdminApi from './AuthAdminApi'
-import AuthClient from './AuthClient'
-export { GoTrueAdminApi, GoTrueClient, AuthAdminApi, AuthClient }
-export * from './lib/types'
-export * from './lib/errors'
+import RealtimeClient, {
+  RealtimeClientOptions,
+  RealtimeMessage,
+  RealtimeRemoveChannelResponse,
+} from './RealtimeClient'
+import RealtimeChannel, {
+  RealtimeChannelOptions,
+  RealtimeChannelSendResponse,
+  RealtimePostgresChangesFilter,
+  RealtimePostgresChangesPayload,
+  RealtimePostgresInsertPayload,
+  RealtimePostgresUpdatePayload,
+  RealtimePostgresDeletePayload,
+  REALTIME_LISTEN_TYPES,
+  REALTIME_POSTGRES_CHANGES_LISTEN_EVENT,
+  REALTIME_SUBSCRIBE_STATES,
+  REALTIME_CHANNEL_STATES,
+} from './RealtimeChannel'
+import RealtimePresence, {
+  RealtimePresenceState,
+  RealtimePresenceJoinPayload,
+  RealtimePresenceLeavePayload,
+  REALTIME_PRESENCE_LISTEN_EVENTS,
+} from './RealtimePresence'
+import WebSocketFactory, { WebSocketLike } from './lib/websocket-factory'
+
 export {
-  navigatorLock,
-  NavigatorLockAcquireTimeoutError,
-  internals as lockInternals,
-  processLock,
-} from './lib/locks'
+  RealtimePresence,
+  RealtimeChannel,
+  RealtimeChannelOptions,
+  RealtimeChannelSendResponse,
+  RealtimeClient,
+  RealtimeClientOptions,
+  RealtimeMessage,
+  RealtimePostgresChangesFilter,
+  RealtimePostgresChangesPayload,
+  RealtimePostgresInsertPayload,
+  RealtimePostgresUpdatePayload,
+  RealtimePostgresDeletePayload,
+  RealtimePresenceJoinPayload,
+  RealtimePresenceLeavePayload,
+  RealtimePresenceState,
+  RealtimeRemoveChannelResponse,
+  REALTIME_LISTEN_TYPES,
+  REALTIME_POSTGRES_CHANGES_LISTEN_EVENT,
+  REALTIME_PRESENCE_LISTEN_EVENTS,
+  REALTIME_SUBSCRIBE_STATES,
+  REALTIME_CHANNEL_STATES,
+  WebSocketFactory,
+  WebSocketLike,
+}
